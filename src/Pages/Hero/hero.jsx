@@ -29,7 +29,7 @@ const cars = [
 
 function Hero() {
   return (
-    <section className="relative h-100 w-full overflow-hidden mt-16">
+    <section className="relative h-130 w-full overflow-hidden">
       {/* Swiper */}
       <Swiper
         modules={[Navigation, Pagination, Autoplay, EffectFade]}
@@ -68,7 +68,7 @@ function Hero() {
               <div className="absolute inset-0 bg-black/15" />
 
               {/* Content */}
-              <div className="relative z-10 flex h-full flex-col items-center pt-20 text-center text-white sm:pt-24 md:pt-28">
+              <div className="relative z-10 flex h-full flex-col items-center pt-50 text-center text-white">
                 <h1 className="px-4 text-3xl font-medium tracking-tight sm:text-4xl md:text-5xl lg:text-6xl">
                   {car.title}
                 </h1>
@@ -95,7 +95,7 @@ function Hero() {
 
       {/* Left Arrow */}
       <button
-        className="tesla-prev absolute left-4 top-1/2 z-30 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/80 text-black transition hover:bg-white md:left-6"
+        className="tesla-prev absolute left-4 top-1/2 z-30 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/20 text-black transition hover:bg-white md:left-6"
         aria-label="Previous slide"
       >
         <VscChevronLeftCompact className="text-[24px]" />
@@ -103,7 +103,7 @@ function Hero() {
 
       {/* Right Arrow */}
       <button
-        className="tesla-next absolute right-4 top-1/2 z-30 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/80 text-black transition hover:bg-white md:right-6"
+        className="tesla-next absolute right-4 top-1/2 z-30 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/20 text-black transition hover:bg-white md:right-6"
         aria-label="Next slide"
       >
         <VscChevronRightCompact className="text-[24px]" />

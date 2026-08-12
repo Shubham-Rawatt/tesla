@@ -108,7 +108,7 @@ const CarCategory = () => {
 
         {/* Previous Button */}
         <button
-          className="car-prev absolute left-4 top-1/2 z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white text-2xl text-gray-800 shadow-md"
+          className="car-prev absolute left-4 top-1/2 z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/50 text-2xl text-gray-800 shadow-md"
           aria-label="Previous"
         >
           <VscChevronLeftCompact/>
@@ -116,7 +116,7 @@ const CarCategory = () => {
 
         {/* Next Button */}
         <button
-          className="car-next absolute right-4 top-1/2 z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white text-2xl text-gray-800 shadow-md"
+          className="car-next absolute right-4 top-1/2 z-20 flex h-10 w-10 -translate-y-1/2 items-center justify-center rounded-full bg-white/50 text-2xl text-gray-800 shadow-md"
           aria-label="Next"
         >
           <VscChevronRightCompact/>

@@ -5,8 +5,8 @@ const [count , setCount] = useState(123456789);
 
  useEffect(() => {
     const interval = setInterval(() => {
-      setCount((prevCount) => prevCount + 50);
-    }, 500);
+      setCount((prevCount) => prevCount + 100);
+    }, 50);
 
       return () => clearInterval(interval);
   }, []);

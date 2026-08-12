@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
-
-body {
-  font-family: "DM Sans", sans-serif;
-}
-
-/* body { font-family: "Google Sans Text", sans-serif; background-color: #fff;} */
+body { font-family: "DM Sans", sans-serif; background-color: #fff; }
 .tesla-txt{ color: #171A20}
 .desc-txt{ color: #5C5E62}
-/* .gradient-txt{linear-gradient(90deg, #171a20, #3e6ae1, #171a20);} */
