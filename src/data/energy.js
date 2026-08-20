@@ -1,27 +1,29 @@
+import img1 from '../../src/assets/images/e1.avif';
+
 export const energyMenuData = {
   energys: [
     {
       id: 1,
       name: "Solar Panels",
-      image: "/images/model-3.png",
+      image: img1,
       links: ["Learn", "Order"],
     },
     {
       id: 2,
       name: "Solar Roof",
-      image: "/images/model-y.png",
+      image: img1,
       links: ["Learn", "Order"],
     },
     {
       id: 3,
       name: "Powerwall",
-      image: "/images/cybertruck.png",
+      image: img1,
       links: ["Learn", "Order"],
     },
     {
       id: 4,
       name: "Megapack",
-      image: "/images/self-driving.png",
+      image: img1,
       links: ["Learn", "Experience"],
     },
   ],

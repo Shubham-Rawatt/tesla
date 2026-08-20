@@ -4,7 +4,7 @@ import logo from '../../assets/images/logo.png';
 import VehicleMenu from "../MegaMenu/VehicleMenu";
 import EnergyMenu from "../MegaMenu/EnergyMenu";
 import ChargingMenu from "../MegaMenu/ChargingMenu";
-import ShopMenu from "../MegaMenu/ShopMenu";
+// import ShopMenu from "../MegaMenu/ShopMenu";
 
 
 const Navbar = () => {
@@ -16,17 +16,19 @@ const Navbar = () => {
         </div>
 
          <ul className="flex gap-8 text-[14px] font-semibold tesla-txt">
+          
           <li className="group relative">
           <button> <span>Vehicles</span> </button> 
-          <div className="hidden group-hover:block"> <VehicleMenu /></div></li>
+          {/* <div  className="absolute left-1/2 top-full hidden -translate-x-1/2 pt-6 group-hover:block"> <VehicleMenu /></div></li> */}
+          <div className="absolute left-1/2 top-full hidden w-screen -translate-x-1/2 pt-5 group-hover:block"><VehicleMenu /> </div> </li>
 
           <li className="group relative">
             <button><span>Energy</span></button>
-            <div className="hidden group-hover:block"> <EnergyMenu /></div></li>
+            <div className="absolute left-1/2 top-full hidden w-screen -translate-x-1/2 pt-5 group-hover:block"> <EnergyMenu /></div></li>
 
           <li className="group relative">
             <button><span>Charging</span></button>
-            <div className="hidden group-hover:block"> <ChargingMenu /></div></li>
+            <div className="absolute left-1/2 top-full hidden w-screen -translate-x-1/2 pt-5 group-hover:block"> <ChargingMenu /></div></li>
          
           <li className="group relative">
             <button><span>Discover</span></button>
@@ -34,7 +36,8 @@ const Navbar = () => {
 
           <li className="group relative">
             <button><span>Shop</span></button>
-            <div className="hidden group-hover:block"> <ShopMenu /></div></li>
+            {/* <div className="hidden group-hover:block"> <ShopMenu /></div> */}
+            </li>
           
         </ul> 
 

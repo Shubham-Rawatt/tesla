@@ -1,47 +1,46 @@
+import img1 from "../assets/images/v1.avif";
+import img2 from "../assets/images/v2.avif";
+
+
 export const vehicleMenuData = {
   vehicles: [
     {
       id: 1,
       name: "Model 3",
-      image: "/images/model-3.png",
+      image: img1,
       links: ["Learn", "Order"],
     },
     {
       id: 2,
       name: "Model Y",
-      image: "/images/model-y.png",
+      image: img2,
       links: ["Learn", "Order"],
     },
     {
       id: 3,
       name: "Cybertruck",
-      image: "/images/cybertruck.png",
+      image: img1,
       links: ["Learn", "Order"],
     },
     {
       id: 4,
       name: "Full Self-Driving (Supervised)",
-      image: "/images/self-driving.png",
+      image: img2,
       links: ["Learn", "Experience"],
     },
     {
       id: 5,
       name: "Inventory",
-      image: "/images/inventory.png",
+      image: img2,
       links: ["New", "Pre-Owned"],
     },
     {
       id: 6,
       name: "Model S",
-      image: "/images/model-s.png",
+      image: img2,
       links: ["Learn"],
     },
-    {
-      id: 7,
-      name: "Model X",
-      image: "/images/model-x.png",
-      links: ["Learn"],
-    },
+    
   ],
 
   links: [
