@@ -1,61 +1,7 @@
-// import React from "react";
-// import car1 from "../../assets/images/8.AVIF";
-// import car2 from "../../assets/images/9.AVIF";
-
-// const Offer = () => {
-//   return (
-//     <section className="px-10 py-5 w-full">
-//       <div className="flex justify-between">
-//         <div className="bg-[#f5f5f5]">
-//           <div className="flex items-center justify-evenly">
-//             <div>
-//               <h3 className="tesla-txt text-3xl font-semibold">
-//                 Current Offers
-//               </h3>
-//               <p className="text-lg desc-txt">
-//                 Explore limited-time offers on Tesla vehicles.
-//               </p>
-//               <a href="#" className="pt-10">
-//                 Learn More
-//               </a>
-//             </div>
-
-//             <div>
-//               <img src={car1} alt="img1" className="h-60 w-60" />
-//             </div>
-//           </div>
-//         </div>
-//         <div className="bg-[#f5f5f5]">
-//           <div className="flex items-center justify-between gap-5">
-//             <div>
-//               <h3 className="tesla-txt text-3xl font-semibold">Inventory</h3>
-//               <p className="text-lg desc-txt">
-//                 Find nearby vehicles available for immediate delivery.
-//               </p>
-//               <div>
-//                 <a href="#" className="pt-10">
-//                   New
-//                 </a>
-//                 <a href="#" className="pt-10">
-//                   Pre-Owned
-//                 </a>
-//               </div>
-//             </div>
-//             <div>
-//               <img src={car2} alt="img1" className="h-60 w-60" />
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default Offer;
 
 import React from "react";
-import car1 from "../../assets/images/8.AVIF";
-import car2 from "../../assets/images/9.AVIF";
+import car1 from "../../assets/images/8.avif";
+import car2 from "../../assets/images/9.avif";
 
 const Offer = () => {
   return (

@@ -4,9 +4,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
-import swiperfirst from "../../assets/images/1.AVIF";
-import swipersecond from "../../assets/images/2.AVIF";
-import swiperthird from "../../assets/images/3.AVIF";
+import swiperfirst from "../../assets/images/1.avif";
+import swipersecond from "../../assets/images/2.avif";
+import swiperthird from "../../assets/images/3.avif";
 import { VscChevronRightCompact, VscChevronLeftCompact, } from "react-icons/vsc";
 
 const cars = [

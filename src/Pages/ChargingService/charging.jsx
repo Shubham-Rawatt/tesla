@@ -4,10 +4,10 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import { VscChevronRightCompact, VscChevronLeftCompact } from "react-icons/vsc";
-import img1 from "../../assets/images/11.AVIF";
-import img2 from "../../assets/images/12.AVIF";
-import img3 from "../../assets/images/13.AVIF";
-import img4 from "../../assets/images/14.AVIF";
+import img1 from "../../assets/images/11.avif";
+import img2 from "../../assets/images/12.avif";
+import img3 from "../../assets/images/13.avif";
+import img4 from "../../assets/images/14.avif";
 
 const ChargingCategory = () => {
   const chargingData = [

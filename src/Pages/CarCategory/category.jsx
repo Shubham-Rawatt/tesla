@@ -1,8 +1,8 @@
 import React from "react";
-import modelyl from "../../assets/images/4.AVIF";
-import model3 from "../../assets/images/5.AVIF";
+import modelyl from "../../assets/images/4.avif";
+import model3 from "../../assets/images/5.avif";
 import modely from "../../assets/images/6.jpg";
-import cyber from "../../assets/images/7.AVIF";
+import cyber from "../../assets/images/7.avif";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";

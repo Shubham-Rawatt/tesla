@@ -14,6 +14,7 @@ function App() {
   return (
     <>
     <Header/>   
+    <main>
     <Hero />
     <About />
     <CarCategory />
@@ -21,6 +22,7 @@ function App() {
     <Location />
     <Charger />
     <ChargingCategory />
+    </main>
     <Footer />
     <Bottom />
     </>
